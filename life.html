@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>CMS Lite Life Insurance</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="life.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1, user-scalable=no">
+        <body> <img class="image1" src="img\boat.jpg" style="width: 100%; height: 95%;"></body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <style type="text/css">
+            .d-none{
+                display: none;
+            }
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.lo{
+    width: 17%;
+    height: 50px;
+    margin-top: 9px;
+    margin-left: 30px;
+    position: absolute;   
+    
+}
+.image1{
+    margin-top: 50px;
+    margin-left: 0px;
+    filter: blur(5px);
+    position: absolute;
+}
+.lineback{
+    width: 1262px;
+    height: 50px;
+    position: absolute;   
+}
+.info{
+    width: 50px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 1100px;
+}
+.row {
+    width: 350px;
+    height: 400px;
+    background:rgba(256,256,256,0.0);
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    left: 500px;
+    border-radius: 10px;
+    border-color: rgb(249, 245, 245);
+    padding: 25px;
+}
+.row2{
+    width: 260px;
+    height: 35px;
+    text-align: center;
+    font-style: inherit;
+}
+
+.row5{
+    width: 260px;
+    height: 35px;
+    margin-top: 95px;
+    margin-left: -263px;
+    position: absolute;
+    text-align: center;
+    font-style: inherit;
+}
+.row7{
+    width: 260px;
+    height: 35px;
+    margin-top: 155px;
+    margin-left: -261px;
+    position: absolute;
+    text-align: center;
+    font-style: inherit;
+}
+.row6 h1{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 h2{
+    position: absolute;
+    margin-top: 205px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 h3{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 h4{
+    position: absolute;
+    margin-top: 335px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 h5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 h6{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row6 b{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 540px;
+    font-size: 20px;
+}
+.row input{
+    width: 260px;
+    height: 35px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+.row input:focus{
+    outline: none;
+}
+::placeholder{
+    color: grey;
+    font-family: Arial;
+}
+.btn{
+    width: 130px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-top: 140px;
+    margin-right: 135px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background:royalblue;
+    color:white;
+}
+.btn a{
+    text-decoration: none;
+    color:midnightblue ;
+    font-weight: ba;
+}
+.bt{
+    width: 130px;
+    height: 40px;
+    background: white;
+    position: absolute;
+    border: none;
+    margin-top: 140px;
+    margin-left: -130px;
+    font-size: 20px;
+    border-radius: 10px; 
+}
+.bt:hover{
+    background:royalblue;
+    color:white;
+}
+.bt a{
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+    font-weight: ba;
+}
+.row4 b{
+    position: absolute;
+    margin-top: 50px;
+    left: 290px;
+    font-size: 40px;
+    font-weight: 100;
+}
+.row4 h1{
+    position: absolute;
+    margin-top: 180px;
+    left: 315px;
+    font-size: 15px;
+}
+.row4 h2{
+    position: absolute;
+    margin-top: 245px;
+    left: 315px;
+    font-size: 15px;
+}
+.row4 h3{
+    position: absolute;
+    margin-top: 310px;
+    left: 315px;
+    font-size: 15px;
+}
+.row4 h4{
+    position: absolute;
+    margin-top: 375px;
+    left: 315px;
+    font-size: 15px;
+}
+.row4 h5{
+    position: absolute;
+    margin-top: 424px;
+    left: 315px;
+    font-size: 15px;
+}
+.row4 h6{
+    position: absolute;
+    margin-top: 120px;
+    left: 315px;
+    font-size: 15px;
+}
+.row10 h1{
+    position: absolute;
+    margin-top: 485px;
+    left: 315px;
+    font-size: 15px;
+}
+.sidebar{
+    position: absolute;
+    margin-top: 23px;
+    width: 240px;
+    left: 1px;
+    height: 878;
+    background: #1e1e1e;
+    transition: all .90s ease;
+  }
+.sidebar a{ 
+    display: block;
+    height: 75px;
+    width: 100%;
+    color: white;
+    line-height: 65px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(230, 218, 218);
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-left: 5px solid transparent;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .5s ease;
+}
+.sidebar a i{
+      font-size: 23px;
+      margin-right: 16px;
+}
+.sidebar a span{
+      letter-spacing: 1px;
+      text-transform: uppercase;
+}
+a.active,a:hover{
+    border-left: 5px solid rgba(200, 200, 200, 0.99);
+    color: white;
+    font-size: 14px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    margin: 15px 30px;
+    font-size: 40px;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    line-height: 125px;
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+label #cancel{
+    opacity: 0;
+    visibility: hidden;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+}
+#check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 0;
+    visibility: hidden;
+  }
+#check:checked ~ label #btn{
+    margin-left: 245px;
+    opacity: 1;
+    visibility: visible;
+  }
+@media screen  and (max-width: 700px)
+{
+    .lo{
+        width: 50%;
+        height: 30px;
+        margin-top:5px;
+        margin-left: 1px;
+        position: absolute;   
+        
+    }
+    .lineback{
+        width: 100%;
+        height: 40px;
+        position: absolute;    
+    }
+    .info{
+        width: 30px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 290px;
+    }    
+     .row {
+        width: 300px;
+        height: 350px;
+        background:rgba(256,256,256,0.0);
+        position: absolute;
+        text-align: center;
+        top: 100px;
+        left: 20px;
+        border-radius: 10px;
+        border-color: rgb(249, 245, 245);
+        padding: 25px;
+    }
+    .row2{
+        width: 263px;
+        height: 35px;
+        text-align: center;
+        font-style: inherit;
+    }
+    
+    .row5{
+        width: 263px;
+        height: 35px;
+        margin-top: 115px;
+        margin-left: -263px;
+        position: absolute;
+        text-align: center;
+        font-style: inherit;
+    }
+    .row7{
+        width: 260px;
+        height: 35px;
+        margin-top: 185px;
+        margin-left: -261px;
+        position: absolute;
+        text-align: center;
+        font-style: inherit;
+    }
+    .row6 h1{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 h2{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 h3{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 h4{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 h5{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 h6{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row6 b{
+        position: absolute;
+        margin-top: 132px;
+        margin-left: 1px;
+        font-size: 0px;
+    }
+    .row4 b{
+        position: absolute;
+        margin-top: 40px;
+        left: 110px;
+        font-size: 30px;
+        font-weight: 100;
+    }
+    .row input{
+        width: 260px;
+        height: 35px;
+        letter-spacing: 1px;
+        margin-top: 40px;
+        font-family: sans-serif;
+    }
+    .row input:focus{
+        outline: none;
+    }
+    ::placeholder{
+        color: grey;
+        font-family: Arial;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        background: white;
+        border: none;
+        margin-top: 150px;
+        margin-right: 130px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .btn:hover{
+        background:royalblue;
+        color:white;
+    }
+    .btn a{
+        text-decoration: none;
+        color:midnightblue ;
+        font-weight: ba;
+    }
+    .bt{
+        width: 120px;
+        height: 40px;
+        background: white;
+        position: absolute;
+        border: none;
+        margin-top: 150px;
+        margin-left: -120px;
+        font-size: 20px;
+        border-radius: 10px;
+        
+    }
+    .bt:hover{
+        background:royalblue;
+        color:white;
+    }
+    .bt a{
+        text-decoration: none;
+        color:rgb(255, 255, 255) ;
+        font-weight: ba;
+    }
+    .row4 h1{
+        position: absolute;
+        margin-top: 170px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row4 h2{
+        position: absolute;
+        margin-top: 250px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row4 h3{
+        position: absolute;
+        margin-top: 328px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row4 h4{
+        position: absolute;
+        margin-top: 405px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row4 h5{
+        position: absolute;
+        margin-top: 462px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row4 h6{
+        position: absolute;
+        margin-top: 90px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .row10 h1{
+        position: absolute;
+        margin-top: 535px;
+        left: 65px;
+        font-size: 21px;
+    }
+    .sidebar{
+        position: absolute;
+        margin-top: 10px;
+        width: 240px;
+        left: -240px;
+        height: 87%;
+        background: #1e1e1e;
+        transition: all .90s ease;
+      }
+    .sidebar a{ 
+        display: block;
+        height: 65px;
+        width: 100%;
+        color: white;
+        line-height: 65px;
+        padding-left: 30px;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(230, 218, 218);
+        border-top: 1px solid rgba(255,255,255,.1);
+        border-left: 5px solid transparent;
+        font-family: 'Open Sans', sans-serif;
+        transition: all .5s ease;
+    }
+    .sidebar a i{
+          font-size: 23px;
+          margin-right: 16px;
+    }
+    .sidebar a span{
+          letter-spacing: 1px;
+          text-transform: uppercase;
+    }
+    a.active,a:hover{
+        border-left: 5px solid rgba(200, 200, 200, 0.99);
+        color: white;
+        font-size: 14px;
+    }
+    #check{
+        display: none;
+    }
+    label #btn,label #cancel{
+        position: absolute;
+        cursor: pointer;
+        color: black;
+        margin: 15px 30px;
+        font-size: 30px;
+        height: 25px;
+        width: 25px;
+        text-align: center;
+        line-height: 15px;
+        margin-left: 4px;
+        transition: all .5s ease;
+    }
+    label #cancel{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #check:checked ~ .sidebar{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        margin-left: 245px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    #check:checked ~ label #btn{
+        margin-left: 245px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+        </style>
+    </head>
+    <div>
+        <img class="lineback" src="img\white.JPG">
+        <img class="info" src="img\info.jpg">
+         <div class="lo"><a href="http://127.0.0.1:5500/dashboard.html"><img src="img\sundaramlogo.JPG"  width="200" height="30"></a></div>    
+    </div>
+    <body>
+        <div class="row">
+            <select  class="row2">
+                
+                <option >Life Insurance Corporation of India</option>
+                <option >Kotak Mahindra Life Insurance Co Ltd</option>
+                <option>ICICI Prudential Life Insurance Co Ltd</option>
+            </select>
+            <div class="investment">
+                <input type="" name="" placeholder="">
+                <input type="" name="" placeholder="">
+                <input type="" name="" placeholder="">
+                <input type="" name="" placeholder="">
+                <select  class="row7">
+                    <option ></option>
+                    <option ></option>
+                </select>
+                <select  class="row5" >
+                    
+                    <option>Monthy</option>
+                    <option>Quarterly</option>
+                    <option>Half-Yearly</option>
+                    <option>Annually</option>
+                </select>
+                
+                <button class="btn">Submit</button>
+                <button class="bt">Reset</button>
+              </div>
+        </div>
+        <div class="row4">
+            <h6>Principal<span style= "color: red">*</span></h6>
+            <h1>Customer Name<span style= "color: red">*</span></h1>
+            <h2>PAN<span style= "color: red">*</span></h2>
+            <h3>Mobile Number<span style= "color: red">*</span></h3>
+            <h4>Contract/Application No<span style= "color: red">*</span></h4>Contract/Application No
+            <h5>Frequency<span style= "color: red">*</span></h5>Frequency
+            <b>Life Insurance</b>
+        </div>
+        <div class="row10"><h1>Credit Branch <span style= "color: red">*</span></h1></div>Credit Branch
+           
+        <div class="row6">
+            <h1>:</h1>
+            <h2>:</h2>
+            <h3>:</h3>
+            <h4>:</h4>
+            <h5>:</h5>
+            <h6>:</h6>
+            <b>:</b>
+        </div>
+        <body>
+            <input type="checkbox" id="check">
+            <label for="check">
+              <i class="fas fa-bars" id="btn"></i>
+              <i class="" id="bt"></i>
+            </label>
+            <div class="sidebar">
+              <header></header>
+              <a href="https://cmslitemotorinsurance.netlify.app/" class="active"><span>Motor Insurance</span></a>
+              <a href="https://cmsliteinvestment.netlify.app/"class="active"><span>INVESTMENTS</span></a>
+              <a href="https://cmslitelifeinsurance.netlify.app/" class="active"><span>Life Insurance</span></a>
+              <a href="https://cmslitenonmotorinsurance.netlify.app/" class="active"><span>Non-Motor Insurance</span></a>
+              <a href="https://cmslite-homeloans.netlify.app" class="active"><span>Home Loans</span></a>
+              <a href="#" class="active"><span>Order Book</span></a>
+            </div>
+        </body>
+    </body>
+</html>
